@@ -1,0 +1,160 @@
+﻿<XtraSerializer version="1.0" application="IGaugeContainer">
+  <property name="Items" iskey="true" value="5">
+    <property name="Item1" isnull="true" iskey="true">
+      <property name="Name">cGauge1</property>
+      <property name="ParentCollectionName">Gauges</property>
+      <property name="TypeNameEx">CircularGauge</property>
+      <property name="OptionsToolTip" isnull="true" iskey="true">
+        <property name="TooltipTitle" />
+        <property name="TooltipIconType">None</property>
+        <property name="Tooltip" />
+        <property name="TooltipFormat">{1:F2}</property>
+        <property name="TooltipTitleFormat" />
+      </property>
+      <property name="ParentName" />
+      <property name="ProportionalStretch">true</property>
+      <property name="Bounds">@1,X=6@1,Y=6@3,Width=158@3,Height=158</property>
+    </property>
+    <property name="Item2" isnull="true" iskey="true">
+      <property name="MinorTickCount">5</property>
+      <property name="MinorTickmark" isnull="true" iskey="true">
+        <property name="ShowFirst">true</property>
+        <property name="ShapeOffset">0</property>
+        <property name="ShapeScale">1, 1</property>
+        <property name="ShowTick">true</property>
+        <property name="ShowLast">true</property>
+        <property name="ShapeType">Circular_Style2_1</property>
+      </property>
+      <property name="MajorTickCount">11</property>
+      <property name="MajorTickmark" isnull="true" iskey="true">
+        <property name="ShowLast">true</property>
+        <property name="ShapeScale">1, 1</property>
+        <property name="ShapeOffset">-9</property>
+        <property name="ShowFirst">true</property>
+        <property name="ShowTick">true</property>
+        <property name="ShapeType">Circular_Style2_2</property>
+        <property name="FormatString">{0:F0}</property>
+        <property name="Multiplier">1</property>
+        <property name="TextOffset">-22</property>
+        <property name="Addend">0</property>
+        <property name="ShowText">true</property>
+        <property name="TextOrientation">LeftToRight</property>
+        <property name="AllowTickOverlap">true</property>
+      </property>
+      <property name="RescalingBestValues">false</property>
+      <property name="MaxValue">100</property>
+      <property name="MinValue">0</property>
+      <property name="RescalingThresholdMax">0.05</property>
+      <property name="RescalingThresholdMin">0.05</property>
+      <property name="Labels" iskey="true" value="0" />
+      <property name="BoundElementName" isnull="true" />
+      <property name="ParentCollectionName">Scales</property>
+      <property name="Name">scale1</property>
+      <property name="TypeNameEx">ArcScaleComponent</property>
+      <property name="ParentName">cGauge1</property>
+      <property name="Enabled" isnull="true" iskey="true" />
+      <property name="Ranges" iskey="true" value="0" />
+      <property name="ZOrder">0</property>
+      <property name="Shader" isnull="true" iskey="true">
+        <property name="TypeTag">Empty</property>
+      </property>
+      <property name="AutoRescaling">false</property>
+      <property name="Center">125, 125</property>
+      <property name="AppearanceMajorTickmark" isnull="true" iskey="true">
+        <property name="BorderWidth">0</property>
+        <property name="ContentBrush" isnull="true" iskey="true">
+          <property name="Color">White</property>
+        </property>
+        <property name="BorderBrush" isnull="true" iskey="true">
+          <property name="Color">White</property>
+        </property>
+      </property>
+      <property name="Appearance" isnull="true" iskey="true">
+        <property name="Width">0</property>
+        <property name="Brush" isnull="true" iskey="true" />
+      </property>
+      <property name="AppearanceScale" isnull="true" iskey="true">
+        <property name="Width">0</property>
+        <property name="Brush" isnull="true" iskey="true" />
+      </property>
+      <property name="AppearanceMinorTickmark" isnull="true" iskey="true">
+        <property name="BorderWidth">0</property>
+        <property name="ContentBrush" isnull="true" iskey="true">
+          <property name="Color">White</property>
+        </property>
+        <property name="BorderBrush" isnull="true" iskey="true">
+          <property name="Color">White</property>
+        </property>
+      </property>
+      <property name="EndAngle">0</property>
+      <property name="AppearanceTickmarkTextBackground" isnull="true" iskey="true">
+        <property name="BorderWidth">0</property>
+        <property name="ContentBrush" isnull="true" iskey="true" />
+        <property name="BorderBrush" isnull="true" iskey="true" />
+      </property>
+      <property name="AppearanceTickmarkText" isnull="true" iskey="true">
+        <property name="Format" isnull="true" iskey="true">
+          <property name="Trimming">Character</property>
+          <property name="FormatFlags">NoClip</property>
+          <property name="Alignment">Center</property>
+          <property name="LineAlignment">Center</property>
+        </property>
+        <property name="TextBrush" isnull="true" iskey="true">
+          <property name="Color">192, 192, 255</property>
+        </property>
+        <property name="Font">Arial Narrow, 11pt, style=Bold</property>
+        <property name="Spacing">0, 0, 0, 0</property>
+      </property>
+      <property name="RadiusX">91</property>
+      <property name="RadiusY">91</property>
+      <property name="StartAngle">-180</property>
+      <property name="Value">40</property>
+    </property>
+    <property name="Item3" isnull="true" iskey="true">
+      <property name="BoundElementName">scale1</property>
+      <property name="Shader" isnull="true" iskey="true">
+        <property name="TypeTag">Empty</property>
+      </property>
+      <property name="Enabled" isnull="true" iskey="true" />
+      <property name="Name">bg1</property>
+      <property name="ParentCollectionName">BackgroundLayers</property>
+      <property name="ParentName">cGauge1</property>
+      <property name="TypeNameEx">ArcScaleBackgroundLayerComponent</property>
+      <property name="ShapeType">CircularHalf_Style2</property>
+      <property name="Size">@3,Width=244@3,Height=170</property>
+      <property name="ZOrder">1000</property>
+      <property name="ScaleCenterPos">0.5, 0.72</property>
+    </property>
+    <property name="Item4" isnull="true" iskey="true">
+      <property name="BoundElementName">scale1</property>
+      <property name="Shader" isnull="true" iskey="true">
+        <property name="TypeTag">Empty</property>
+      </property>
+      <property name="Enabled" isnull="true" iskey="true" />
+      <property name="Name">needle1</property>
+      <property name="ParentCollectionName">Needles</property>
+      <property name="ParentName">cGauge1</property>
+      <property name="TypeNameEx">ArcScaleNeedleComponent</property>
+      <property name="ShapeType">CircularFull_Style2</property>
+      <property name="ZOrder">-50</property>
+      <property name="EndOffset">-6</property>
+      <property name="StartOffset">9</property>
+    </property>
+    <property name="Item5" isnull="true" iskey="true">
+      <property name="BoundElementName">scale1</property>
+      <property name="Shader" isnull="true" iskey="true">
+        <property name="TypeTag">Empty</property>
+      </property>
+      <property name="Enabled" isnull="true" iskey="true" />
+      <property name="Name">cap1</property>
+      <property name="ParentCollectionName">SpindleCaps</property>
+      <property name="ParentName">cGauge1</property>
+      <property name="TypeNameEx">ArcScaleSpindleCapComponent</property>
+      <property name="ZOrder">-100</property>
+      <property name="Size">@2,Width=24@2,Height=24</property>
+      <property name="ShapeType">CircularFull_Style2</property>
+    </property>
+  </property>
+  <property name="AutoLayout">true</property>
+  <property name="SizeEx">@3,Width=170@3,Height=170</property>
+</XtraSerializer>

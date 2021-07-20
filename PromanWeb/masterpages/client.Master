@@ -1,0 +1,118 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="client.master.cs" Inherits="PromanWeb.masterpages.client" %>
+<%@ Register TagPrefix="uc" TagName="header" Src="~/controls/header.ascx" %>
+<%@ Register TagPrefix="uc" TagName="footer" Src="~/controls/footer.ascx" %>
+<%@ Register TagPrefix="uc" TagName="leftmenu" Src="~/controls/leftmenu.ascx" %>
+<%@ Register TagPrefix="uc" TagName="clientHeader" Src="~/controls/clientHeaderControl.ascx"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head id="Head1" runat="server">
+    <title></title>
+  <link rel="Stylesheet" href="../App_Themes/default/style.css" />
+    <link rel="Stylesheet" href="../App_Themes/default/Default.css" />
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        
+        <table cellpadding="0" cellspacing="0" border="0" style="color:#666699; width:700px; border:px inset black; text-align:center; background:white; margin-left:auto; margin-right:auto;" >        
+                    
+            <!-- Page header -->
+            <tr>
+                <td style="text-align:left">
+                    <table cellpadding="0" cellspacing="0" border="0" style="width: 100%;">
+                        <tr>
+                            <td style="text-align:left; vertical-align:top;">
+                                <asp:ImageButton ID="ImageButton1" ImageUrl="~/App_Themes/default/images/Logo.jpg" Width="261" runat="server" ToolTip="Sofvue Home Page"/>
+                              
+                            </td>
+                            <td style="width:50%; text-align:right; vertical-align:top;">
+                         
+                                1.866.317.0256 <br />
+                     <div style=" height:44px;">&nbsp;</div>
+                                <asp:LinkButton CssClass="logoutlink" ID="LinkButton1" runat="server" 
+                                    onclick="LinkButton1_Click">Log Out</asp:LinkButton>
+           
+                            </td>                              
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+
+                                   
+
+         <tr>
+         <td>
+         <table>
+<tr>
+<td> <uc:clientHeader id="ucClientheader" runat="server"/></td>
+</tr>
+</table>
+         </td>
+         </tr>
+            
+            
+            <!-- Content holder -->
+            <tr>
+                <td style="text-align:left">
+                    <table cellpadding="0" cellspacing="0" border="0" style="min-height:800px;width: 100%; color:Black;">
+                        <tr>
+
+
+                                               
+                            
+                            <td style="text-align:left;  vertical-align:top;">
+                                <asp:contentplaceholder id="ContentPlaceHolder1" runat="server">
+                                </asp:contentplaceholder>                               
+                            </td>
+                        </tr>
+                    </table>
+                </td>                
+            </tr>
+            
+                        
+            <!-- Separator -->
+            <tr style="height:5px">
+                <td>                                                       
+                </td>
+            </tr>            
+            <tr style="height:2px">
+                <td style="background-image:url(App_Themes/CurrentTheme/Images/Borders/CenterBorder_Gray.jpg); background-repeat: repeat;">                                                       
+                </td>
+            </tr>
+            <tr style="height:5px">
+                <td>                                                       
+                </td>
+            </tr>
+                             
+
+            <!-- Page footer -->
+            <tr>
+                <td style="text-align:left;">
+                    <table cellpadding="0" cellspacing="0" border="0" style="width: 100%;">
+                        <tr>
+                            <td style="text-align:left; vertical-align:top;">
+                            <br />
+                            <br />
+                            <br />
+                               <%-- Sofvue<br />
+                                4007 McCullough Avenue, Suite 458<br />
+                                San Antonio, Texas 78212<br />
+                                Toll Free: 1.866.317.0256<br />
+                                Web: <a href="http://www.sofvue.com">www.sofvue.com</a>--%>
+                            </td>
+                            <td style="width:50%; text-align:right; vertical-align:top;">
+                             
+                            </td>                              
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            
+                                                                                   
+        </table>
+                
+    </div>
+    </form>
+</body>
+</html>

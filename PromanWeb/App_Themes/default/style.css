@@ -1,0 +1,1762 @@
+﻿.pnlcommentimagecontainer
+{
+     height:auto;
+    }
+    .item-image{ margin-top:5px; margin-right:10px;}
+.t14{ color: black;}
+.t28{ color: gray;}
+.t42{ color: Blue}
+.t56{ color: Purple;}
+.t70{ color: Red;}
+.t84{ color:Brown;}
+.t100{ color:green;}
+.taskdetailcolorlegendtext{ padding-right:36px; color:Gray;}
+.projectlink{ color:Blue; text-decoration:underline;}
+.projectlink:hove {color:Blue; text-decoration:underline;}
+.component-table
+{
+    /*padding-top:5px;*/
+    border: 2px solid #859EBF;
+    margin: 10px;
+    margin-left: 45px;
+    margin-top: 14px;
+    width: 93%;
+     margin-bottom:30px;
+}
+    .component-table-lefttd
+    {
+     background:#E9F1FA;   
+        padding-top:2px;
+        padding-bottom:2px;
+        padding-left:2px;
+      text-align:right;
+      border-bottom: 1px solid #CFDDEE;
+    border-top: 1px solid #CFDDEE;
+    width:20px;
+        } 
+        
+.component-table-lefttd1
+{ font-weight:bold;
+    background:#E9F1FA;
+    padding-top:2px;
+        padding-bottom:2px;
+     text-align:right;
+  padding-left:2px;
+      border-bottom: 1px solid #CFDDEE;
+    border-top: 1px solid #CFDDEE;
+    }
+    .component-table-righttd
+    {
+        background:#E9F1FA;
+        padding-top:2px;
+        padding-bottom:2px;
+     text-align:left;
+  padding-left:5px;
+      border-bottom: 1px solid #CFDDEE;
+    border-top: 1px solid #CFDDEE;
+        }
+.componentbackground
+{
+    
+    }
+.nodatafound
+{
+     color:Gray; text-align:center;
+     vertical-align:middle;
+    }
+.componentprogressbartd1
+{
+   
+    }
+.thhead
+{
+   color: black;
+font-weight: bold;
+text-decoration: underline;
+vertical-align: middle;
+background-color: #E7F0FA;
+border: 1px solid #8BA0BC;
+    }
+.task-table
+{
+     margin-left:40px;
+   margin-right:5px;
+    margin-top:15px;
+   width:93%;
+   margin-bottom:20px;
+   border-collapse:collapse;
+   background-color:White;
+}
+.module-table-lefttd
+{ padding-right:10px;
+     text-align:right;
+      padding-top:8px;
+      padding-bottom:8px;
+      border-bottom:1px solid #CFDDEE;
+      border-top:1px solid #CFDDEE;
+      width:275px;
+    }
+    .module-table-firstimagetd
+    {
+        border-bottom:1px solid #CFDDEE;
+      border-top:1px solid #CFDDEE;
+      padding-left:15px;
+      width:25px;
+        }
+    .module-table-righttd
+    {
+        border-bottom:1px solid #CFDDEE;
+      border-top:1px solid #CFDDEE;
+        }
+    
+
+.task-table td
+{
+  
+   padding-left:5px; 
+   padding-top:3px;
+   padding-bottom:3px;
+}
+.module-table 
+{
+    padding-top: 20px;
+    width: 100%;
+    border:1px solid #8BA0BC;
+    
+}
+.module-table-tr
+{
+
+     border-bottom:1px solid gray;
+     border-top:1px solid gray;
+    }
+
+#ctl00_cphAdmin_gvActivity
+{
+    border-collapse: separate;
+    margin-right: 15px;
+    width: 98%;
+}
+.user-management .sub-heading1
+{
+    background: #0000FF;
+    margin: 0 0;
+    width: 772px;
+}
+.user-management .sub-heading1 h2
+{
+    padding-left: 7px;
+    background: #FFFFFF;
+    font-size: 15px;
+    text-transform: capitalize;
+    width: 145px;
+    font-weight: normal;
+}
+/*=========== CSS Document=============== */
+body
+{
+    background: #969696;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    line-height: 12px;
+    color: #000;
+}
+Label
+{
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.wrapper
+{
+    background: #fff;
+    margin: 16px auto 0;
+    width: 1120px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.dxeBase_Office2010Blue
+{
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.dxeListBox_Office2010Blue
+{
+    border: none;
+}
+.dxeListBoxItem_Office2010Blue, .dxeMemoEditArea_Office2010Blue, .dxgvTable_Office2010Blue
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+/*============= Header ================== */
+.header
+{
+    height: 80px;
+    border-bottom: 6px solid #969696;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header .logo
+{
+    float: left;
+    padding: 0px 0px 0px 5px;
+}
+.header .website-title
+{
+    font-size: 16px;
+    color: #3366FF;
+    text-align: left;
+    vertical-align: middle;
+    padding: 12px 0px 0px 0px;
+    margin-left: 210px;
+}
+/* Footer */
+.footer
+{
+    width: 1120px;
+    margin: 0 auto;
+    padding-top: 5px;
+    border-top: 18px solid #000080;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.clo-leftsignin
+{
+    width: 165px;
+    margin-left: 1px;
+    border-right: 1px solid #c0c0c0;
+    float: left;
+    background: #fff;
+    height: 270px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* ================ Main ==================== */
+.clientmain
+{
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+    border-top: 6px solid #FFFFFF;
+    min-height: 450px;
+    height: auto;
+}
+
+.main
+{
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+    background: url(images/admin_bg_grey_line.png) repeat-y scroll top left;
+    border-top: 6px solid #FFFFFF;
+    min-height: 450px;
+    height: auto;
+}
+.clo-left
+{
+    width: 150px;
+    margin-left: 1px;
+    float: left;
+    background: #fff;
+    color: Blue;
+    height: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.clo-left ul
+{
+    list-style: none;
+    margin: 0;
+    padding: 0px 0px 5px 5px;
+}
+.clo-left ul li a
+{
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: capitalize;
+    color: Blue;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.clo-left ul li a span
+{
+    background: url(images/left_menu_li_bg.gif) no-repeat scroll top left;
+    display: block;
+    float: left;
+    padding: 8px 9px 9px;
+    width: 158px;
+    margin-bottom: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    cursor: pointer;
+}
+.client-col-main
+{
+    padding-left: 0px;
+    width: 790px;
+    float: right;
+    background: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.client-col-main .heading
+{
+    background: #FFD5C6;
+    margin: 0px 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.client-col-main .heading h2
+{
+    background: #FFFFFF;
+    font-size: 16px;
+    text-transform: capitalize;
+    width: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.client-col-main .heading h2.control
+{
+    background: #FFFFFF;
+    font-size: 16px;
+    text-transform: capitalize;
+    width: 215px;
+}
+.col-main
+{
+    padding-left: 0px;
+    width: 930px;
+    float: right;
+    background: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.col-main .heading
+{
+    background: #FFD5C6;
+    margin: 0px 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.col-main .heading h2
+{
+    background: #FFFFFF;
+    font-size: 16px;
+    text-transform: capitalize;
+    width: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.col-main .heading h2.control
+{
+    background: #FFFFFF;
+    font-size: 16px;
+    text-transform: capitalize;
+    width: 215px;
+}
+/*================== Labels ==============*/
+.lbl-error
+{
+    background-color: #FFDDDD;
+    background-image: url('images/error.gif');
+    background-position: 10px 3px;
+    background-repeat: no-repeat;
+    border: 1px solid #FFBBBB;
+    color: red;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    padding-bottom: 4px;
+    padding-left: 35px;
+    padding-top: 4px;
+    text-align: left;
+    vertical-align: middle;
+    width: 90%;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.lbl-warning
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.lbl-message
+{
+    background-color: #E6F8DE;
+    background-image: url("images/ok.gif");
+    background-position: 10px 3px;
+    background-repeat: no-repeat;
+    border: 1px solid #BED3B4;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    padding-bottom: 4px;
+    padding-left: 35px;
+    padding-top: 4px;
+    text-align: left;
+    vertical-align: middle;
+    width: 90%;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.lbl-info
+{
+    background-color: #C0C0C0;
+    background-image: url("images/information.png");
+    background-position: 10px 3px;
+    background-repeat: no-repeat;
+    border: 1px solid #808080;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    padding-bottom: 4px;
+    padding-left: 35px;
+    padding-top: 4px;
+    text-align: left;
+    vertical-align: middle;
+    width: 90%;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.div-message
+{
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+/* ============= SignIn =================== */
+.signin
+{
+    width: 925px;
+    margin-right: 0px;
+    float: right;
+    background: #fff;
+    margin: 0PX;
+    padding: 0PX;
+}
+.signin .heading
+{
+    width: 908px;
+    height: 20px;
+    background-color: #E9F1FA;
+    text-align: left;
+    vertical-align: middle;
+    padding: 7px 0px 0px 10px;
+    border: 1px solid #BAC3D3;
+}
+.signin .heading h2
+{
+    margin: 0px;
+    padding: 0px;
+    color: #0000FF;
+    background-color: #E9F1FA;
+    font-size: 16PX;
+}
+.signin .banner
+{
+    padding-top: 8px;
+}
+.signin .banner .banner-img
+{
+    padding-left: 8px;
+}
+.signin .login-box
+{
+    background: url(images/AdminLoginBack.jpg) no-repeat scroll center top;
+    width: 350px;
+    height: 228px;
+    margin: 50px 0px 75px 275px;
+    text-align: center;
+}
+.signin .login-box .field
+{
+    display: block;
+    clear: both;
+    color: #000000;
+    width: 350px;
+}
+.signin .login-box .field .username
+{
+    text-align: right;
+    width: 90px;
+    vertical-align: middle;
+    padding-bottom: 2px;
+    color: #64A5C6;
+}
+.signin .login-box .field .username-txtbox
+{
+    text-align: left;
+    vertical-align: top;
+    padding-bottom: 2px;
+    padding-left: 3px;
+    width: 200px;
+}
+.signin .login-box .topbigheight
+{
+    height: 80px;
+}
+.bottom-border td
+{
+    border-bottom: 1px solid #CBCBCB;
+}
+.signin .login-box .field .btnsubmit
+{
+    padding-top: 25px;
+    padding-left: 120px;
+    text-align: left;
+    vertical-align: top;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.signin .login-box .field .dxbButton_Office2010Blue
+{
+    background: url(images/Submit.png) no-repeat scroll top left;
+    width: 74px;
+    height: 23px;
+    border: none;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*============ Sign Out =============*/
+.sign-out
+{
+    width: 920px;
+    float: right;
+    background: #fff;
+}
+.sign-out .heading
+{
+    width: 900px;
+    height: 20px;
+    background-color: #E9F1FA;
+    text-align: left;
+    vertical-align: middle;
+    padding: 7px 0px 0px 10px;
+    border: 1px solid #BAC3D3;
+}
+.sign-out .heading h2
+{
+    margin: 0px;
+    padding: 0px;
+    color: #0000FF;
+    background-color: #E9F1FA;
+    font-size: 16PX;
+}
+.sign-out .msg
+{
+    color: #666699;
+    font-size: 14px;
+    margin: 10px 10px 10px 10px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 300px;
+}
+/*======== Deafult settings ========*/
+.dxeEditArea_Office2010Blue
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+/*default padding*/
+.default-padding-left
+{
+    padding-left: 5px;
+}
+.default-padding-right
+{
+    padding-right: 5px;
+}
+.default-padding-top
+{
+    padding-top: 5px;
+}
+.default-padding-bottom
+{
+    padding-bottom: 5px;
+}
+/*default margin*/
+.default-margin-left
+{
+    margin-left: 5px;
+}
+.default-margin-right
+{
+    margin-right: 5px;
+}
+.default-margin-top
+{
+    margin-top: 5px;
+}
+.default-margin-bottom
+{
+    margin-bottom: 5px;
+}
+/*========== default color ===========*/
+.grey-color
+{
+    color: Gray;
+}
+.red-color
+{
+    color: Red;
+}
+
+.red-color-bold
+{
+    color: #FF0000;
+    font-weight: bold;
+}
+.green-color-bold
+{
+    color: #008000;
+    font-weight: bold;
+}
+.blue-color-bold
+{
+    color: #0000FF;
+    font-weight: bold;
+}
+/*========== User Management ===========*/
+.user-management
+{
+    width: 920px;
+    float: right;
+    background: #fff;
+}
+.user-management .heading
+{
+    width: 900px;
+    height: 20px;
+    background-color: #E9F1FA;
+    text-align: left;
+    vertical-align: middle;
+    padding: 7px 0px 0px 10px;
+    border: 1px solid #BAC3D3;
+}
+.user-management .heading h2
+{
+    margin: 0px;
+    padding: 0px;
+    color: #0000FF;
+    background-color: #E9F1FA;
+    font-size: 16px;
+}
+.user-management .sub-heading
+{
+    background: #0000FF;
+    margin: 0 0;
+    width: 904px;
+}
+.user-management .sub-heading h2
+{
+    padding-left: 7px;
+    background: #FFFFFF;
+    font-size: 15px;
+    text-transform: capitalize;
+    width: 127px;
+    font-weight: normal;
+}
+.user-management .users
+{
+}
+.user-management .sub-heading2
+{
+    background: #0000FF;
+    margin: 0 0;
+    width: 904px;
+}
+.user-management .sub-heading2 h2
+{
+    padding-left: 7px;
+    background: #FFFFFF;
+    font-size: 15px;
+    text-transform: capitalize;
+    width: 100px;
+    font-weight: normal;
+}
+.user-management .user-edit
+{
+}
+.user-management .user-edit .firstname
+{
+    width: 150px;
+    text-align: right;
+    vertical-align: middle;
+    padding-top: 5px;
+}
+.user-management .user-edit .txtfirstname
+{
+    width: 210px;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+.user-management .user-edit .txtfirstname .txtbox
+{
+    width: 180px;
+}
+.user-management .user-edit .blueline
+{
+    width: 2px;
+    background-color: #E2EAF4;
+}
+
+.user-management .user-edit .btn
+{
+    padding: 10px 0px 10px 60px;
+}
+
+/*============= Project- Creator ===================*/
+.project-creator
+{
+    width: 920px;
+    float: right;
+    background: #fff;
+}
+.project-creator .heading
+{
+    width: 900px;
+    height: 20px;
+    background-color: #E9F1FA;
+    text-align: left;
+    vertical-align: middle;
+    padding: 7px 0px 0px 10px;
+    border: 1px solid #BAC3D3;
+}
+.project-creator .heading h2
+{
+    margin: 0px;
+    padding: 0px;
+    color: #0000FF;
+    background-color: #E9F1FA;
+    font-size: 16px;
+}
+.project-creator .maindiv
+{
+    width: 910px;
+    height: auto;
+    background-color: #E9F1FA;
+    text-align: left;
+    vertical-align: middle;
+    border: 1px solid #7D98CE;
+    margin: 7px 0px 7px 0px;
+}
+.project-creator .maindiv .subdiv
+{
+    width: 900px;
+    height: auto;
+    background-color: #FFFFFF;
+    text-align: left;
+    vertical-align: middle;
+    border: 1px solid #7D98CE;
+    margin: 5px 5px 5px 5px;
+    padding: 0px 0px 10px 0px;
+}
+.project-creator .maindiv .subdiv .project-name
+{
+    width: 170px;
+    text-align: right;
+    vertical-align: middle;
+    padding-top: 5px;
+}
+.project-creator .maindiv .subdiv .project-description
+{
+    width: 170px;
+    text-align: right;
+    vertical-align: top;
+    padding-top: 5px;
+}
+.project-creator .maindiv .subdiv .mandatory
+{
+    text-align: center;
+    vertical-align: top;
+    padding: 5px 0px 5px 0px;
+}
+.project-creator .maindiv .subdiv .enter-project-name
+{
+    width: 440px;
+    text-align: left;
+    vertical-align: middle;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+.project-creator .maindiv .subdiv .enter-project-name .input-txt
+{
+    width: 420px;
+}
+.project-creator .maindiv .subdiv .enter-project-name .project-owner
+{
+    width: 250px;
+}
+.project-creator .maindiv .subdiv .enter-project-name .due-date
+{
+    width: 100px;
+}
+.project-creator .maindiv .subdiv .enter-project-name .heading-avtar-img
+{
+    font-weight: bold;
+    padding: 10px 0px 5px 0px;
+}
+.project-creator .maindiv .subdiv .enter-project-number
+{
+    color: #0000FF;
+    font-size: 16px;
+    font-weight: bold;
+}
+.project-creator .maindiv .subdiv .sub-heading
+{
+    background: #000080;
+    margin: 0 0;
+    width: 870px;
+}
+.project-creator .maindiv .subdiv .sub-heading h2
+{
+    padding-left: 7px;
+    background: #FFFFFF;
+    font-size: 15px;
+    text-transform: capitalize;
+    width: 95px;
+    font-weight: normal;
+    font-weight: bold;
+}
+.project-creator .maindiv .subdiv .modules
+{
+    margin: 0px 0px 0px 10px;
+}
+.project-creator .maindiv .subdiv .avtar-width-height
+{
+    color: #8484AD;
+    padding: 10px 0px 10px 0px;
+}
+.project-creator .maindiv .subdiv .module-txt
+{
+    color: #8484AD;
+    padding: 0px 0px 10px 80px;
+}
+/*================ Task creator ====================*/
+.task-creator
+{
+    width: 920px;
+    float: right;
+    background: #fff;
+}
+.task-creator .heading
+{
+    width: 900px;
+    height: 20px;
+    background-color: #E9F1FA;
+    text-align: left;
+    vertical-align: middle;
+    padding: 7px 0px 0px 10px;
+    border: 1px solid #BAC3D3;
+}
+.task-creator .heading h2
+{
+    margin: 0px;
+    padding: 0px;
+    color: #0000FF;
+    background-color: #E9F1FA;
+    font-size: 16px;
+}
+.task-creator .maindiv
+{
+    width: 910px;
+    height: auto;
+    background-color: #E9F1FA;
+    text-align: left;
+    vertical-align: middle;
+    border: 1px solid #7D98CE;
+    margin: 7px 0px 7px 0px;
+}
+.task-creator .maindiv .subdiv
+{
+    width: 898px;
+    height: auto;
+    background-color: #FFFFFF;
+    text-align: left;
+    vertical-align: middle;
+    border: 1px solid #7D98CE;
+    margin: 5px 5px 5px 5px;
+}
+.task-creator .maindiv .subdiv .smalldesc
+{
+    color: #7676A4;
+    font-size: 11px;
+}
+
+.smalldesc
+{
+    color: #7676A4;
+    font-size: 11px;
+}
+
+.task-creator .maindiv .subdiv .auto-number
+{
+    font-weight: bold;
+    color: #0000FF;
+}
+.task-creator .maindiv .subdiv .upload
+{
+    border: 2px solid #9B9B9B;
+    padding: 10px;
+}
+.upload
+{
+    border: 2px solid #9B9B9B;
+    padding: 10px;
+    margin:10px;
+    }
+.task-creator .dxdvItem_Office2010Blue, .task-creator .dxdvFlowItem_Office2010Blue
+{
+    border: none;
+    background-color: #FFFFFF;
+    width: 130px !important;
+    height: auto;
+}
+.task-creator .dxdvContent_Office2010Blue
+{
+    padding: 0px;
+}
+.task-creator .dxdvContent_Office2010Blue
+{
+    border: none;
+}
+
+/* ================ Project queue ====================*/
+.project-queue, .component-queue
+{
+    width: 920px;
+    float: right;
+    background: #fff;
+    padding-bottom: 10px;
+}
+.project-queue .heading,.component-queue .heading
+{
+    width: 900px;
+    height: 20px;
+    background-color: #E9F1FA;
+    text-align: left;
+    vertical-align: middle;
+    padding: 7px 0px 0px 10px;
+    border: 1px solid #BAC3D3;
+ 
+}
+.project-queue .heading h2,.component-queue .heading h2
+{
+    margin: 0px;
+    padding: 0px;
+    color: #0000FF;
+    background-color: #E9F1FA;
+    font-size: 16px;
+}
+.project-queue .Projects-list
+{
+    padding-top: 5px;
+}
+.project-queue .Projects-list .folder 
+{
+    text-decoration:none;
+}
+
+.project-queue .project-view
+{
+    margin: 5px 0px 0px 0px;
+    width: 910px;
+    border: 1px solid #000000;
+}
+.project-queue .project-view .sub-heading
+{
+    width: 900px;
+    height: 20px;
+    background-color: #99CCFF;
+    text-align: left;
+    padding: 5px 5px 0px 5px;
+    vertical-align: middle;
+}
+.project-queue .project-view .sub-heading h2
+{
+    margin: 0px;
+    padding: 0px;
+    color: #000000;
+    background-color: #99CCFF;
+    font-size: 12px;
+}
+.project-queue .project-view .sub-heading .project-name
+{
+    float: left;
+}
+.project-queue .project-view .sub-heading .day-to-project-due
+{
+    float: right;
+}
+.project-queue .project-view .module-detail
+{
+    padding: 0px 0px 10px 0px;
+}
+.project-queue .project-view .module-detail .module-name
+{
+    width: 200px;
+    text-align: right;
+    vertical-align: middle;
+    color: #000000;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.project-queue .project-view .module-detail .project-completion-rate
+{
+    padding: 20px 0px 10px 60px;
+}
+.project-queue .project-view .module-detail .completion-rate
+{
+    width: 100px;
+}
+.project-queue .project-view .module-detail .progress-bar
+{
+    width: 200px;
+}
+.project-queue .project-view .module-detail .button
+{
+    padding-left: 300px;
+}
+.project-queue .project-view .module-detail .dxdvItem_Office2010Blue
+{
+    padding: 0px;
+}
+.project-queue .project-view .module-detail .dxdvCtrl_Office2010Blue
+{
+    padding: 0px;
+}
+.project-queue .project-view .module-detail .dxdvControl td.dxdvCtrl
+{
+    padding: 0px;
+}
+.project-queue .project-view .module-detail .dxdvControl_Office2010Blue
+{
+    padding: 0px;
+}
+.project-queue .project-view .module-detail .dxdvContent_Office2010Blue
+{
+    height: auto;
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+.project-queue .project-view .module-detail .dxdvItem_Office2010Blue .dxdvFlowItem
+{
+    padding: 0px;
+}
+.project-queue .project-view .module-detail .grid-module-status
+{
+    margin-top: 15px;
+}
+.project-queue .project-view .module-detail .buttons
+{
+    margin-left: 360px;
+  /*  margin-top: 35px;*/
+}
+.project-queue .taskview
+{
+    padding: 7px;
+}
+.lead-marginleft
+{
+    padding-left: 15px;
+}
+.project-queue .project-view .module-detail .align-right
+{
+    text-align: right;
+}
+.project-queue .project-view .module-detail .marginleft
+{
+    padding-left: 25px;
+}
+.project-queue .project-view .module-detail .project-legend
+{
+    color: Gray;
+    margin-left: 50px;
+    line-height: 10px;
+}
+.project-legend
+{
+    color: Gray;
+    margin-left: 50px;
+    line-height: 10px;
+}
+.project-queue .colordot
+{
+    font-size: 7pt;
+    color: Gray;
+    margin-left: 60px;
+}
+.project-queue .trHeading
+{
+    background: white;
+    font-weight: bold;
+    border-collapse: collapse;
+}
+.project-queue .thDescription, .project-queue .thWireFrame
+{
+    color: #000000;
+    background-color: #99CCFF;
+    border-collapse: collapse;
+}
+.project-queue .tdPercentageComplete
+{
+    text-align: center;
+    width: 22px;
+}
+.project-queue .tdheading
+{
+    color: #000000;
+    background-color: #99CCFF;
+    border-collapse: collapse;
+    text-align: center;
+}
+.project-queue .taskstatusimage
+{
+    width: 29px;
+    height: 15px;
+    border-collapse: collapse;
+}
+.project-queue .progress-table
+{
+    border: 1px solid #CFDDEE;
+    border-collapse: collapse;
+    width: 95%;
+}
+.project-queue .progress-table td
+{
+    border: 1px solid #CFDDEE;
+    border-collapse: collapse;
+    padding: 5px;
+}
+.project-overallcompletion
+{
+    margin-left: 420px;
+}
+.project-queue #popupdate
+{
+    text-align: center;
+}
+.project-queue .hr
+{
+    width: 885px;
+    border-color: Gray;
+    border: solid 1px gray;
+}
+/********************Search-Task*******************************/
+.Search-task
+{
+    width: 920px;
+    float: right;
+    background: #fff;
+}
+.Search-task .heading
+{
+    height: 18px;
+    background-color: #E9F1FA;
+    text-align: left;
+    vertical-align: middle;
+    padding: 5px 0px 0px 10px;
+    border: 1px solid #BAC3D3;
+    margin-right: 7px;
+}
+.Search-task .heading h2
+{
+    margin: 0px;
+    padding: 0px;
+    color: #0000FF;
+    background-color: #E9F1FA;
+    font-size: 16px;
+}
+.Search-task .search
+{
+    height: auto;
+    background-color: #E9F1FA;
+    text-align: left;
+    vertical-align: middle;
+    border: 1px solid #BAC3D3;
+    margin-right: 7px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+.Search-task .maindiv
+{
+    width: 910px;
+    height: auto;
+    background-color: #E9F1FA;
+    text-align: left;
+    vertical-align: middle;
+    border: 1px solid #7D98CE;
+    margin: 7px 0px 7px 0px;
+}
+.Search-task .maindiv .subdiv
+{
+    width: 900px;
+    height: auto;
+    background-color: #FFFFFF;
+    text-align: left;
+    vertical-align: middle;
+    border: 1px solid #7D98CE;
+    margin: 5px 5px 5px 5px;
+}
+/*================ Task Detail ====================*/
+.component-queue .cmpList
+{
+  margin-top:5px; height:515px;  overflow-y:scroll;   overflow-x:hidden; border: 1px solid #8BA0BC;width:910px;
+    }
+    
+    
+.task-detail, .task-list
+{
+    width: 920px;
+    float: right;
+    background: #fff;
+}
+.task-detail .heading, .task-list .heading, .closed-task .heading
+{
+    height: 18px;
+    background-color: #E9F1FA;
+    text-align: left;
+    vertical-align: middle;
+    padding: 5px 0px 0px 10px;
+    border: 1px solid #BAC3D3;
+    margin-right: 7px;
+}
+.task-detail .heading h2
+{
+    margin: 0px;
+    padding: 0px;
+    color: #0000FF;
+    background-color: #E9F1FA;
+    font-size: 16px;
+}
+.task-detail .sub-heading
+{
+    height: 18px;
+    background-color: #E9F1FA;
+    text-align: left;
+    vertical-align: middle;
+    padding: 5px 0px 0px 10px;
+    border: 1px solid #BAC3D3;
+    width: 900px;
+    margin-bottom: 5px;
+}
+.task-detail .sub-heading h2
+{
+    margin: 0px;
+    padding: 0px;
+    color: #0000FF;
+    background-color: #E9F1FA;
+    font-size: 16px;
+}
+.task-detail .search
+{
+    height: 28px;
+    background-color: #E9F1FA;
+    text-align: left;
+    vertical-align: middle;
+    border: 1px solid #BAC3D3;
+    margin-right: 7px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+.task-detail .maindiv
+{
+    width: 100%;
+    height: auto;
+    text-align: left;
+    vertical-align: middle;
+}
+.task-detail .maindiv .subdiv
+{
+    width: 100%;
+    height: auto;
+}
+.task-detail .project-description
+{
+    border: 1px solid #929292;
+    background-color: #EAEAEA;
+    min-height: 420px;
+    height: auto;
+    padding: 3px;
+}
+.task-detail .details
+{
+    border: 1px solid #3C4146;
+    margin: 5px 2px 0px 0px;
+}
+.task-detail .details .task-header
+{
+    font-weight: bold;
+    background-color: #99CCFF;
+    height: 25px;
+    vertical-align: middle;
+    padding: 5px;
+}
+.task-detail .details .task-completion-label
+{
+    font-size: 14px;
+    font-weight: bold;
+    color: #0000FF;
+    line-height: 16px;
+    margin-top:10px;
+    
+}
+.task-detail .details .task-completion-status
+{
+    
+}
+.task-detail .details .task-completion-status .dxeBase_Office2010Blue
+{
+    font-size: 32px;
+    font-weight: bold;
+    color: #000000;
+    line-height: 36px;
+}
+.task-detail .details .task-status-row
+{
+    border-bottom: 1px solid #8E8E8E;
+    margin-left: 5px;
+}
+.task-detail .details .dxeRadioButtonList_Office2010Blue, .task-detail .details .dxeRadioButtonList_Office2010Blue table
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    vertical-align: top;
+    padding: 0;
+    margin: 0;
+}
+.task-detail .details .dxeRadioButtonList_Office2010Blue
+{
+    border: none;
+}
+.task-detail .details .dxeRadioButtonList_Office2010Blue td.dxe
+{
+    padding: 0px 0px 0px 0px;
+}
+.task-detail .details .add-comment
+{
+    font-size: 14px;
+    font-weight: bold;
+    color: #0000FF;
+    line-height: 16px;
+    text-decoration: underline;
+    vertical-align: middle;
+}
+
+.add-comment
+{
+    font-size: 14px;
+    font-weight: bold;
+    color: #0000FF;
+    line-height: 16px;
+    text-decoration: underline;
+    vertical-align: middle;
+}
+.task-detail .details .add-content-container
+{
+    vertical-align: middle;
+}
+.task-detail .details .comment-box
+{
+    background: url('images/comment-bg.jpg') no-repeat scroll top left;
+    width: 393px;
+    height: 145px;
+    border: none;
+    margin-left: 7px;
+    padding-top: 35px;
+    padding-left: 10px;
+}
+ .comment-box
+{
+    background: url('images/comment-bg.jpg') no-repeat scroll top left;
+    width: 270px;
+    height: 145px;
+    border: none;
+    margin-left: 7px;
+    padding-top: 35px;
+    padding-left: 10px;
+}
+.comment-box .send-message
+{
+    text-align: right;
+    margin-right: 25px;
+    margin-top: 10px;
+}
+.comment-box .send-message a
+{
+    text-decoration: none;
+    font-weight: bold;
+}
+
+ .char-remain-box
+{
+    border: 1px solid #676767;
+    margin-left: 25px;
+    padding: 3px 7px 3px 7px;
+}
+.task-detail .details .comment-box .send-message
+{
+    text-align: right;
+    margin-right: 25px;
+    margin-top: 10px;
+}
+.task-detail .details .comment-box .send-message a
+{
+    text-decoration: none;
+    font-weight: bold;
+}
+.task-detail .details .char-remain-box
+{
+    border: 1px solid #676767;
+    margin-left: 25px;
+    padding: 3px 7px 3px 7px;
+}
+.task-detail .details .task-desc .gray-text
+{
+    color: #878787;
+    font-size: 11px;
+}
+.task-detail .details .task-desc
+{
+    margin-left: 10px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.task-detail .details .previous-task, .task-detail .details .next-task, .task-detail .details .delete-task
+{
+    font-weight: bold;
+    margin-top: 5px;
+}
+.task-detail .details .previous-task
+{
+    float: left;
+}
+.task-detail .details .next-task
+{
+    float: right;
+}
+.task-detail .details .delete-task a
+{
+    color: #FF0000;
+}
+.task-detail .btnTimeEntry
+{
+    position: relative;
+    top: -38px;
+    left: 60%;
+}
+.task-detail .ddlTaskSelectByCategory
+{
+    position: relative;
+    top: -16px;
+    left: 83%;
+}
+.task-detail .ddlTaskSelectByCategory1
+{
+    position: relative;
+    top: -23px;
+    left: 83.5%;
+}
+/*.task-detail .details .dxdvItem_Office2010Blue, .task-detail .details .dxdvFlowItem_Office2010Blue { border:none; background-color:#FFFFFF; width:160px !important; height:160px !important; }*/
+.task-detail .details .dxdvContent_Office2010Blue
+{
+    padding: 0px;
+    margin-left: 10px;
+}
+.task-detail .details .dxdvContent_Office2010Blue
+{
+    border: none;
+}
+.task-detail .details .dxdvControl_Office2010Blue
+{
+    margin-left: 7px;
+    margin-top: 3px;
+}
+.task-detail .details .comment-item
+{
+    border-top: 1px solid #A0A0A0;
+    width: 100%;
+    margin-left: 5px;
+}
+.task-detail .details .comment-item div
+{
+    width: 100%;
+}
+.task-detail .details .comment-item .gray-text
+{
+    color: #878787;
+    font-size: 11px;
+    margin-bottom: 2px;
+}
+.task-detail .details .dxdvItem_Office2010Blue, .dxdvFlowItem_Office2010Blue
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.task-detail .details .comment-item .comment
+{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.task-detail .details .dxdvItem_Office2010Blue, .task-detail .details .dxdvFlowItem_Office2010Blue
+{
+    border: none;
+    background-color: #FFFFFF;
+    width: 160px !important;
+    height: auto !important;
+}
+.task-detail .details .status-images
+{
+    margin-left: 25px;
+}
+.task-detail .details .update-button
+{
+    margin-top: 5px;
+}
+.task-detail .details .comment
+{
+    font-size: 12px;
+    color: #000000;
+}
+.task-detail .details .task-title
+{
+    margin-left: 15px;
+}
+.task-detail .task-list-grid
+{
+    margin-top: 5px;
+    margin-bottom: 50px;
+}
+.task-detail .project-name
+{
+    text-decoration: underline;
+    color: #0000FF;
+}
+.task-detail .project-name a:visited
+{
+    text-decoration: underline;
+    color: #0000FF;
+}
+.task-detail .project-desc-title
+{
+    margin-bottom: 5px;
+}
+.task-detail .pclefttd
+{
+    text-align: right;
+}
+.task-detail .addresslefttd
+{
+    text-align: right;
+    vertical-align: top;
+}
+/*================ Closed Tasks ====================*/
+.closed-task
+{
+    width: 920px;
+    float: right;
+    background: #fff;
+}
+.closed-task .heading
+{
+    height: 18px;
+    background-color: #E9F1FA;
+    text-align: left;
+    vertical-align: middle;
+    padding: 5px 0px 0px 10px;
+    border: 1px solid #BAC3D3;
+    margin-right: 7px;
+}
+.closed-task .maindiv
+{
+    width: 100%;
+    height: auto;
+    text-align: left;
+    vertical-align: middle;
+}
+.closed-task .maindiv .subdiv
+{
+    width: 100%;
+    height: auto;
+}
+.closed-task .task-list-grid
+{
+    margin-top: 5px;
+    margin-bottom: 50px;
+}
+.closed-task .heading h2
+{
+    margin: 0px;
+    padding: 0px;
+    color: #0000FF;
+    background-color: #E9F1FA;
+    font-size: 16px;
+}
+.closed-task .project-name
+{
+    text-decoration: underline;
+    color: #0000FF;
+}
+/*================ Lead ====================*/
+.lead
+{
+    width: 920px;
+    float: right;
+    background: #fff;
+}
+.lead .heading
+{
+    height: 18px;
+    background-color: #E9F1FA;
+    text-align: left;
+    vertical-align: middle;
+    padding: 5px 0px 0px 10px;
+    border: 1px solid #BAC3D3;
+    margin-right: 7px;
+}
+.lead .heading h2
+{
+    margin: 0px;
+    padding: 0px;
+    color: #0000FF;
+    background-color: #E9F1FA;
+    font-size: 16px;
+}
+.lead .maindiv
+{
+    width: 100%;
+    height: auto;
+    text-align: left;
+    vertical-align: middle;
+}
+.lead .maindiv .subdiv
+{
+    width: 100%;
+    height: auto;
+}
+.lead .task-list-grid
+{
+    margin-top: 5px;
+    margin-bottom: 50px;
+}
+.lead .addnewrecord
+{
+    width: 500px;
+    text-align: right;
+}
+.lead .pcaddrecord .pclefttd
+{
+    text-align: right;
+}
+.lead-align-right
+{
+    text-align: right;
+    width: 50px;
+}
+.lead .pcaddrecord .address
+{
+    text-align: right;
+    vertical-align: top;
+}
+.lead .search
+{
+    height: 28px;
+    background-color: #E9F1FA;
+    text-align: left;
+    vertical-align: middle;
+    border: 1px solid #BAC3D3;
+    margin-right: 7px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+.lead .pclefttd
+{
+    text-align: right;
+}
+.lead .imImage
+{
+    cursor: pointer;
+}
+.lead .tableleftmargin
+{
+    margin-left: 30px;
+}
+/*=================Tipsy ToolTips=========*/
+.tipsy
+{
+    font-size: 10px;
+    position: absolute;
+    padding: 5px;
+    z-index: 100000;
+}
+.tipsy-inner
+{
+    background-color: #000;
+    color: #FFF;
+    max-width: 200px;
+    padding: 5px 8px 4px 8px;
+    text-align: center;
+}
+
+/* Rounded corners */
+.tipsy-inner
+{
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+}
+
+/* Uncomment for shadow */
+/*.tipsy-inner { box-shadow: 0 0 5px #000000; -webkit-box-shadow: 0 0 5px #000000; -moz-box-shadow: 0 0 5px #000000; }*/
+
+.tipsy-arrow
+{
+    position: absolute;
+    width: 0;
+    height: 0;
+    border: 5px solid transparent;
+}
+
+/* Rules to colour arrows */
+.tipsy-arrow-n
+{
+    border-bottom-color: #000;
+}
+.tipsy-arrow-s
+{
+    border-top-color: #000;
+}
+.tipsy-arrow-e
+{
+    border-left-color: #000;
+}
+.tipsy-arrow-w
+{
+    border-right-color: #000;
+}
+
+.tipsy-n .tipsy-arrow, .tipsy-nw .tipsy-arrow, .tipsy-ne .tipsy-arrow
+{
+    top: 0;
+    border-top: none;
+}
+.tipsy-s .tipsy-arrow, .tipsy-sw .tipsy-arrow, .tipsy-se .tipsy-arrow
+{
+    bottom: 0;
+    border-bottom: none;
+}
+.tipsy-n .tipsy-arrow, .tipsy-s .tipsy-arrow
+{
+    left: 50%;
+    margin-left: -5px;
+}
+.tipsy-nw .tipsy-arrow, .tipsy-sw .tipsy-arrow
+{
+    left: 10px;
+}
+.tipsy-ne .tipsy-arrow, .tipsy-se .tipsy-arrow
+{
+    right: 10px;
+}
+.tipsy-e .tipsy-arrow, .tipsy-w .tipsy-arrow
+{
+    top: 50%;
+    margin-top: -5px;
+}
+.tipsy-e .tipsy-arrow
+{
+    right: 0;
+    border-right: none;
+}
+.tipsy-w .tipsy-arrow
+{
+    left: 0;
+    border-left: none;
+}

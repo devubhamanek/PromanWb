@@ -1,0 +1,68 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="default.master.cs" Inherits="PromanWeb.masterpages._default" %>
+<%@ Register TagPrefix="uc" TagName="header" Src="~/controls/header.ascx" %>
+<%@ Register TagPrefix="uc" TagName="footer" Src="~/controls/footer.ascx" %>
+<%@ Register TagPrefix="uc" TagName="leftmenu" Src="~/controls/leftmenu.ascx" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+
+    <title>Project Task Manager</title>
+    <link rel="Stylesheet" href="../App_Themes/default/style.css?i=1" type="text/css"   /> 
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+<!-- Start of Wrapper-->
+<form id="form1" runat="server" >
+<div class="wrapper">
+	<!-- Start of Header-->
+	<div class="header">
+	
+         <uc:header id="ucheader" runat="server"/>
+	</div>
+	<!-- End of Header-->
+	
+	<!-- Start of main-container-->
+	<div class="main">
+		
+		<!-- Start of left sidebar -->
+		   
+             
+             <div class="clo-left">
+			 <uc:leftmenu id="ucleftmenu" runat="server"/>
+              </div>
+           
+                 
+           
+		
+		<!-- End of Left sidebar-->
+		
+		<!-- Start of Main-->
+		
+       
+		<div class="col-main">
+          <asp:ContentPlaceHolder ID="cphAdmin" runat="server">
+          
+        </asp:ContentPlaceHolder>
+		</div>
+       
+		
+		<!-- End of Main-->
+		
+	</div>
+	<!-- End of main-container-->
+	
+</div>
+<!-- End of Wrapper-->
+
+<!-- Start of Footer-->
+<div class="footer">
+	<%--<img src="../../App_Themes/Admin/images/technical_support.jpg" width="193" height="33" align="right" title="Technical Support" alt="Technical Support" />--%>
+     <uc:footer id="ucfooter" runat="server"/>
+</div> 
+<!-- End of footer-->
+</form> 
+</body>
+</html>
+

@@ -1,0 +1,41 @@
+﻿body
+{
+	margin:0px;
+	background-color:#FFFFFF;
+	font-family:Arial,Verdana,Trebuchet MS;
+	font-size:9pt;
+	text-align:left;	
+	line-height:18px;		
+}
+
+a
+{
+	color:#666699;
+	font-weight:normal;
+	background-repeat:no-repeat;
+	text-align:center;
+	vertical-align:bottom;
+	padding-top:6px;
+	text-decoration:none;
+	font-size:9pt;
+	background-position:left;	
+}
+
+.FlatTextBox
+{
+	border:1px solid #7F9DB9;
+	font-size:9pt;
+	color:Black;
+}
+
+.AltFontColor
+{
+	font-weight:bold;
+	color:#0066FF;
+}
+
+.AltFontColor2
+{
+	font-weight:bold;
+	color:#000080;
+}
